@@ -32,7 +32,7 @@ export default function MainPage() {
                             <GitHub />
                         </Button>
                     </ButtonGroup>
-                </Box>
+                </Box> 
                 <Box mt={2}>
                     <Typography variant='overline'>
                     &copy; {new Date().getFullYear()}
