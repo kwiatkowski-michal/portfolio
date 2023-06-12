@@ -9,7 +9,7 @@ export default function MainPage() {
                 sx={{
                     display: "flex",
                     flexDirection: "column",
-                    height: "100vh",
+                    height: "98vh",
                     justifyContent: "center",
                 }}
             >
