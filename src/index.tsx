@@ -13,6 +13,7 @@ import '@fontsource/montserrat/700.css';
 
 import MainPage from './MainPage';
 import { ThemeProvider, createTheme } from '@mui/material';
+import Projects from './Projects';
 
 
 const theme = createTheme({
@@ -27,7 +28,8 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <MainPage />
+      {/* <MainPage /> */}
+      <Projects />
     </ThemeProvider>
   </React.StrictMode>
 );
